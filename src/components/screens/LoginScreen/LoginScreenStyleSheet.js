@@ -3,13 +3,13 @@
 // to determine what styles and components to apply. use the 'Platform' module
 
 import {StyleSheet} from "react-native";
+import { Constants } from "expo";
 
 const styles = StyleSheet.create({
   view: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: "#000000",
   },
   logo: {
     fontSize: 72,

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text} from "react-native"
+import {View, Button, Text} from "react-native";
 
 
 class WorkSpaceScreen extends Component {
@@ -9,7 +9,10 @@ class WorkSpaceScreen extends Component {
         // const {navigate} = this.props.navigation
         return (
             <View>
-                <Text>Hello World!</Text>
+                <Button 
+                title= "Go to Scans"
+                onPress={() => this.props.navigation.push("ViewScan")}
+                />
             </View>
             // <button
             //     title= "go to profile"

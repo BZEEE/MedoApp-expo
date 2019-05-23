@@ -9,7 +9,7 @@ const appNavigator = createStackNavigator(
   {
     Login: LoginScreen,
     WorkSpace: WorkSpaceScreen,
-    screen: ViewScanScreen
+    ViewScan: ViewScanScreen
   },
   {
     initialRouteName: "Login"
