@@ -12,7 +12,13 @@ const appNavigator = createStackNavigator(
     ViewScan: ViewScanScreen
   },
   {
-    initialRouteName: "Login"
+    initialRouteName: "Login",
+    defaultNavigationOptions: {
+      headerStyle: {
+        backgroundColor: "#000000",
+      },
+      headerTintColor: "#ffffff",
+    },
   }
 );
 

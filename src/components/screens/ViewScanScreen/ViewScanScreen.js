@@ -5,7 +5,9 @@ import ExpoTHREE, {THREE} from "expo-three";
 
 class ViewScanScreen extends React.Component {
 
-    static navigationOptions = {}
+    static navigationOptions = {
+      title: "ViewScan",
+    };
 
     render() {
         return(
@@ -30,7 +32,7 @@ class ViewScanScreen extends React.Component {
       scale: pixelRatio,
     }) => {
       this.renderer = new ExpoTHREE.Renderer({ gl, pixelRatio, width, height });
-      this.renderer.setClearColor(0xffffff);
+      this.renderer.setClearColor(0x000000);
       this.scene = new THREE.Scene();
       this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
       this.camera.position.z = 5;

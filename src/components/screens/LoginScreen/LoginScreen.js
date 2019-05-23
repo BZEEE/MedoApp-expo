@@ -6,7 +6,9 @@ import styles from "./LoginScreenStyleSheet.js";
 // use THREE.js library to create particles on login page
 
 class LoginScreen extends Component {
-    static navigationOptions = {}
+    static navigationOptions = {
+      title: "Login",
+    };
 
     render() {
         // const {navigate} = this.props.navigation

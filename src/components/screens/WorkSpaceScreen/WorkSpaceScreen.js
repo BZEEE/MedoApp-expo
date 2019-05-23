@@ -3,7 +3,9 @@ import {View, Button, Text} from "react-native";
 
 
 class WorkSpaceScreen extends Component {
-    static navigationOptions = {}
+    static navigationOptions = {
+        title: "WorkSpace",
+    };
 
     render() {
         // const {navigate} = this.props.navigation
