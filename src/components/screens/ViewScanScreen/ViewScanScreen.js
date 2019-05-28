@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { View, Text } from "react-native";
 import {View as GraphicsView} from "expo-graphics";
 import ExpoTHREE, {THREE} from "expo-three";
+import { Permissions, GLView } from "expo"
 
 class ViewScanScreen extends React.Component {
 
